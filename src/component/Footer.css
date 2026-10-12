@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.footer{
+    width:100%;
+    background-color: rgb(110, 14, 43);
+    display: flex;
+        border-top: 1px solid white;
+        padding-bottom: 50px;
+
+
+}
+
+.footer1{
+    width: 30%;
+    padding-top: 60px;
+    width:50%;
+    padding-left: 100px;
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family:"Cormorant Upright", serif;
+    color: white;
+}
+
+
+.footer1 ul{
+    list-style-type: none;
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family:"Cormorant Upright", serif ;
+    color: white;
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+;
+}
+
+
+.footer1 span{
+    width:30%;
+    font-family:"Cormorant Upright", serif  ;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+.footer2 ul{
+    list-style-type: none;
+    width: 30%;
+    padding-top: 60px;
+    width:50%;
+    padding-left: 100px;
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-family:"Cormorant Upright", serif ;
+    color: white;
+    
+}
+
+.footer2 span{
+    width:30%;
+    font-family:"Cormorant Upright", serif  ;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.footerbox{
+    width:100%;
+    background-color: rgb(110, 14, 43);
+    display: flex;
+    padding-top: 50px;
+    padding-left: 100px;
+    border-top: 1px solid white;
+    display: flex;
+}
+
+
+
+.footerbox p{
+   color: white;
+   letter-spacing: 3px;
+   word-spacing: 5px;
+   font-weight: bolder;
+}
+
+.img1{
+    width: 50%;
+       font-size: 20px;
+
+
+}
+
+.img1 img{
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.name{
+    width:50%;
+       font-size: 30px;
+        
+
+    
+}
+
+.name h5{
+    font-size: 20px;
+    padding-top: 30px;
+    color: white;
+
+}
+
+.name p{
+font-family: "Pacifico", cursive;
+}
+

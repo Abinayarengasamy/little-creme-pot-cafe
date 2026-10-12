@@ -1,0 +1,127 @@
+/* CART PAGE */
+
+.cart-page {
+  padding: 40px 5%;
+  background-color: #fff;
+  color: #4a1024;
+  font-family: 'DynaPuff', cursive;
+  min-height: 70vh;
+}
+
+.cart-heading {
+  text-align: center;
+  font-family: 'Chewy', cursive;
+  font-size: 38px;
+  color: #6e0e2b;
+  margin-bottom: 35px;
+  letter-spacing: 1px;
+}
+
+/* TABLE */
+
+.cart-table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.cart-table thead {
+  background-color: #6e0e2b;
+  color: #fff;
+}
+
+.cart-table th {
+  padding: 18px 12px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+.cart-table td {
+  padding: 18px 12px;
+  border-bottom: 1px solid #f3c5d0;
+  font-size: 15px;
+}
+
+.cart-table tbody tr:hover {
+  background-color: #fff5f7;
+}
+
+/* CAKE IMAGE */
+
+.cart-product-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #f5d1da;
+}
+
+/* PRODUCT NAME */
+
+.cart-product-name {
+  color: #6e0e2b;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* QUANTITY BUTTONS */
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.quantity-controls span {
+  font-size: 17px;
+  color: #6e0e2b;
+}
+
+.quantity-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ee556f;
+  border-radius: 50%;
+  background: white;
+  color: #ee556f;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.quantity-btn:hover {
+  background-color: #ee556f;
+  color: white;
+}
+
+/* REMOVE BUTTON */
+
+.remove-btn {
+  padding: 9px 14px;
+  border: 1px solid #ee556f;
+  border-radius: 5px;
+  background-color: white;
+  color: #ee556f;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.cart-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.cart-heading-icon {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}

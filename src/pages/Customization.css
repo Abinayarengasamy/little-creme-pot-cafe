@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+color: white;   
+ background-color:rgb(238, 85, 111) ;
+    width: 100%;
+    height:400px;
+    display: grid;
+    place-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: "Courgette", cursive;
+    line-height: 60px;
+   
+
+
+}
+
+
+
+.cakkiee{
+    border: 4px solid rgb(110, 14, 43);
+    width: 100%;
+    height: 500px;
+}
+
+.customize{
+    width: 100%;
+    align-items: center;
+    background-color: rgb(110, 14, 43);
+    color:white ;
+    font-family: "Courgette", cursive;
+}
+
+.videos-order{
+    width: 100%;
+    display: flex;
+    
+}
+
+.video-one{
+        border: 2px solid rgb(238, 85, 111) ;
+        margin-left: 100px;
+        margin-top: 100px;
+
+}
+
+/* Custom cake titles */
+.customize .card-title {
+    font-family: "Chewy", system-ui;
+    color: rgb(110, 14, 43);
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Custom cake prices */
+.customize .text-muted {
+    color: rgb(238, 85, 111) !important;
+    font-family: "Courgette", cursive;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Center the price */
+.customize .card-text {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* Center the title and price within each card */
+.customize .card-body {
+    text-align: center;
+}
+
+
+

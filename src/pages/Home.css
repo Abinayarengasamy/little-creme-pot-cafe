@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+
+
+.col1{
+    width:40%;
+    color: rgb(5, 49, 5);
+
+   
+}
+
+
+
+
+.col2{
+    width:60%;
+        
+}
+
+.col2 img{
+border-radius: 30%;
+}
+
+
+   
+
+.icon{
+    width:40%;
+}
+
+
+
+
+
+
+
+.col1 h5{
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    color:rgb(238, 85, 111); 
+    font-size: 20px;
+          font-family: "Courgette", cursive;
+
+   
+   
+
+    
+}
+
+.col1 h6{
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    color:rgb(238, 85, 111); 
+    font-size: 15px;
+        font-family:"Courgette", cursive;  
+
+}
+
+.courgette-regular {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.col1 h6{
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    color:rgb(238, 85, 111); 
+    font-size: 15px;
+        font-family:"Courgette", cursive;  
+
+}
+
+.col1 h1{
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    color:rgb(110, 14, 43); 
+    font-size: 60px;
+     font-family: "Chewy", system-ui;
+
+    font-weight: bold;
+}
+
+
+
+.row2{
+    width:100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    border-top: 1px solid white;
+    height: 150px;
+    text-align: center;
+    font-family:"Courgette", cursive ;
+    color:rgb(238, 85, 111); 
+    font-size: 12px; 
+    font-weight: bold;
+
+}
+
+.cake{
+    width: 25%;
+    border-right: 1px solid white;
+    padding-top: 10px;
+}
+
+.whisk{
+    width: 25%;
+    border-right: 1px solid white;
+        padding-top: 10px;
+
+}
+
+.leaf{
+    width: 25%;
+    border-right: 1px solid white;
+        padding-top: 10px;
+
+}
+
+.travel{
+    width: 25%;
+    border-right: 1px solid white;
+        padding-top: 10px;
+
+}
+
+.gift{
+    width: 25%;
+    border-right: 1px solid white;
+        padding-top: 10px;
+
+}
+
+.bestsellers {
+    width: 100%;
+    display: block;
+}
+
+
+
+.bestseller-tag{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 85, 111);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family:"Chewy", system-ui ;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 5px;
+    word-spacing: 10px;
+}
+
+.bestsellers {
+    width: 100%;
+}
+
+
+/* BESTSELLER TITLE */
+
+.bestseller-tag {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 85, 111);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: "Chewy", system-ui;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    word-spacing: 10px;
+}
+
+.bestseller-tag p {
+    margin: 0;
+}
+
+
+/* BOTH ROWS */
+
+.bestseller-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 100px 40px 0 40px;
+    box-sizing: border-box;
+}
+
+
+/* ALL 6 CARDS */
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    width: calc((100% - 120px) / 3);
+    height: 500px;
+
+    background-color: rgb(238, 85, 111);
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: white;
+
+    font-weight: bold;
+
+    font-family: "Courgette", cursive;
+
+    border-radius: 30px;
+
+    letter-spacing: 3px;
+
+    flex-shrink: 0;
+}
+
+
+/* IMAGES */
+
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img,
+.card5 img,
+.card6 img {
+    width: 100%;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+}
+
+
+/* TEXT */
+
+.card1 p,
+.card2 p,
+.card3 p,
+.card4 p,
+.card5 p,
+.card6 p {
+    padding-top: 30px;
+    margin: 0;
+}
+
+
+/* BUTTON */
+
+.card1 button,
+.card2 button,
+.card3 button,
+.card4 button,
+.card5 button,
+.card6 button {
+    padding-left: 60px;
+    padding-right: 60px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 20px;
+
+    background-color: rgb(110, 14, 43);
+
+    border: 0;
+
+    color: white;
+
+    border-radius: 10px;
+
+    font-family: "Chewy", system-ui;
+
+    letter-spacing: 3px;
+
+    word-spacing: 5px;
+}
+
+
+/* SPACE BETWEEN ROW 1 AND ROW 2 */
+
+.bestseller-row + .bestseller-row {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.sliding-pics {
+    background-color:rgb(110, 14, 43) ;
+    width: 100%;
+    overflow: hidden;
+}
+
+.marquee-track{
+    display: flex;
+    gap: 100px;
+    width: max-content;
+    animation: moveRight 20s linear infinite;
+}
+
+.marquee-track img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100px;
+    flex-shrink: 0;
+}
+
+@keyframes moveRight {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.row-one {
+        padding-top: 40px;
+         padding-bottom: 100px;
+}
+
+
+.row-two {
+    animation: moveLeft 20s linear infinite;
+    padding-bottom: 40px;
+}
+
+@keyframes moveLeft {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.cakeandtxt{
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+margin-top: 50px;
+border: 50px solid rgb(238, 85, 111) ;
+}
+
+
+.cake{
+    width:50%;
+    padding-left: 50px;
+    padding-bottom: 50px;
+   
+}
+
+.cake img{
+       border-radius: 20%;
+}
+
+
+.text{
+    width:50%;
+    padding-right: 100px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-family:"Courgette", cursive  ;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+    color:rgb(110, 14, 43) ;
+    text-transform: capitalize;
+}
+
+.order-details button{
+    border: none;
+    background-color:rgb(110, 14, 43);
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 30px;
+   padding: 5px;
+}
+
+
+

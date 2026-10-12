@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rowzz{
+    width:100%;
+    display: flex;
+}
+
+.video{
+    width: 60%;
+    border: 30px solid rgb(238, 85, 111);
+    justify-content: center;
+    border-right: 50px;
+}
+
+ .contentzz{
+   display: grid;
+   place-items: center;
+    width:40%;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-family: "Chewy", system-ui ;
+    word-spacing: 8px;
+    letter-spacing: 1.5px;
+    color: rgb(110, 14, 43);
+    font-weight: bold;
+    border: 30px solid rgb(238, 85, 111);
+    line-height: 40px;
+    
+} 
+
+.card-group{
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(110, 14, 43);
+}
+
+.card{
+    border: 20px solid rgb(238, 85, 111);
+    border-radius: 80px;
+}
+
+.card img{
+    border-top-right-radius:50px;
+        border-top-left-radius:50px;
+
+}
+
+.slidesz{
+        background-color:rgb(110, 14, 43) ;
+
+}
+.slidesz img{
+    border-radius: 30%;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+    
+}
+
+.sliding-picsz {
+    background-color:rgb(110, 14, 43) ;
+    width: 100%;
+    overflow: hidden;
+}
+
+.marquee-track{
+    display: flex;
+    gap: 100px;
+    width: max-content;
+    animation: moveRight 10s linear infinite;
+}
+
+.marquee-track img {
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 100px;
+    flex-shrink: 0;
+}
+
+@keyframes moveRight {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.row-onee {
+         padding-bottom: 50px;
+}
+
+
+.row-twoo {
+    animation: moveLeft 10s linear infinite;
+    padding-bottom: 40px;
+}
+
+@keyframes moveLeft {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* Menu card headings */
+.card-group .card-title {
+    font-family: "Chewy", system-ui;
+    color: rgb(110, 14, 43);
+    font-size: 23px;
+    font-weight: 400;
+    margin: 15px 0 8px;
+    text-align: center;
+}
+
+/* Menu card prices */
+.card-group .text-muted {
+    color: rgb(238, 85, 111) !important;
+    font-family: "Courgette", cursive;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Center heading and price */
+.card-group .card-body {
+    text-align: center;
+}
+
+.card-group .card-text {
+    margin-bottom: 5px;
+}
+
+
+
+

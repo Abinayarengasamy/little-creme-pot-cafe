@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.order-details{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+        margin-top: 40px;
+margin-bottom: 40px;
+    
+}
+
+
+.details{
+    border: 1px solid;
+    margin-left: 2px;
+    margin-left: 30px;
+}
+
+.order-details-tag{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(110, 14, 43);
+    color: white;
+    font-family: "Chewy", system-ui;
+    letter-spacing: 4px;
+    margin-bottom:40px ;
+}
+
+.order-details .order-title {
+    font-family: "Chewy", system-ui;
+    color: rgb(110, 14, 43);
+    font-size: 23px;
+    font-weight: 400;
+    margin: 15px 0 8px;
+    text-align: center;
+}
+
+.order-details .text-muted {
+    display: block;
+    color: rgb(238, 85, 111) !important;
+    font-family: "Courgette", cursive;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
